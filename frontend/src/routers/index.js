@@ -14,6 +14,15 @@ const router = createBrowserRouter([
             path:"login",
             element: <Login/>
 
+        },
+        {
+            path:"forgot-password",
+            element: <ForgotPassword/>
+        },
+
+        {
+            path: "Sign-Up",
+            element: <SignUp/>
         }
       ]
 
